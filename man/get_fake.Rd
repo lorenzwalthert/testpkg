@@ -7,9 +7,12 @@
 get_fake(x)
 }
 \arguments{
-\item{x}{this is a param}
+\item{x}{this is a parameter of the funciton. I won't use it.}
 }
 \description{
 Document here. Nr. 3. One more
 I wonder how long this can be. \code{\link[base:c]{base::c()}}, \link[base:c]{base::c}, \code{\link[=get_fake]{get_fake()}}
+}
+\examples{
+get_fake()
 }
