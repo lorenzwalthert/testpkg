@@ -2,16 +2,26 @@
 % Please edit documentation in R/hello.R
 \name{get_fake}
 \alias{get_fake}
-\title{a fake function}
+\alias{get_flake}
+\title{F(l)ake news}
 \usage{
 get_fake(x)
+
+get_flake()
 }
 \arguments{
 \item{x}{this is a parameter of the funciton. I won't use it.}
 }
 \description{
 Document here. Nr. 3. One more
-I wonder how long this can be. \code{\link[base:c]{base::c()}}, \link[base:c]{base::c}, \code{\link[=get_fake]{get_fake()}}
+I wonder how long this can be. \code{\link[base:c]{base::c()}}, \link[base:c]{base::c}, \code{\link[=get_fake]{get_fake()}}. You can
+have enumeration:
+}
+\details{
+\itemize{
+\item bullet 1.
+\item bullet 2.
+}
 }
 \examples{
 get_fake()

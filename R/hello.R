@@ -1,7 +1,11 @@
-#' a fake function
+#' F(l)ake news
 #'
 #' Document here. Nr. 3. One more
-#' I wonder how long this can be. [base::c()], [base::c], [get_fake()]
+#' I wonder how long this can be. [base::c()], [base::c], [get_fake()]. You can
+#' have enumeration:
+#'
+#' * bullet 1.
+#' * bullet 2.
 #'
 #' @param x this is a parameter of the funciton. I won't use it.
 #' @export
@@ -10,6 +14,12 @@
 #' get_fake()
 get_fake <- function(x) {
   "fake news, Nico. Sorry"
+}
+
+#' @rdname get_fake
+#' @export
+get_flake <- function() {
+  "flake news, Nico. yup"
 }
 
 test <- function(a = g()) {
